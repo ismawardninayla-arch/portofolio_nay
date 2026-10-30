@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Data Mahasiswa </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>   
+        <img class="gambar-header" src="img/mahasiswa-portal.png" alt="gambar">
+        <div>
+        <h1> Formulir Data Mahasiswa</h1>
+        <p>Silahkan isi dengan teliti </p>
+        </div>
+    </header>
+    <main>
+        <div>
+        <form action="Profil.php" method="post">
+            <p>
+                <label for="nama">Nama Lengkap</label><br>
+                <input type="text" id="nama" name="nama" required>
+            </p>
+            <p>
+                <label for="nim">NIM</label><br>
+                <input type="text" id="nim" name="nim" required>
+            </p>
+            <p>
+                <label for="program studi">Program Studi</label><br>
+                <input type="text" id="program_studi" name="program_studi" required>
+            </p>
+            <p>
+                <label for="semester">Semester</label><br>
+                <input type="number" id="semester" name="semester" required>
+            </p>
+
+            <button class="tombol-submit" type="submit"> Kirim Data</button>
+            <button class="tombol-reset" type="reset"> Kosongkan Fields</button>
+
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p> Pemrograman Kelas A @2026</p>
+    </footer>
+</body>
+</html>
